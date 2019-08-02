@@ -1,4 +1,4 @@
-# flutter_notification_permission
+# Flutter notification permission
 
 This plugin is a fork of [Vanethos/flutter_notification_permissions/](https://github.com/Vanethos/flutter_notification_permissions/) with iOS portion done in Objective C to avoid all the problems with swift in Flutter.
 
