@@ -1,8 +1,8 @@
 name: notification_permission
-description: A new flutter plugin project.
-version: 0.0.1
-author:
-homepage:
+description: Flutter plugin to check if the user granted a permission to show notifications.
+version: 0.1.0
+author: Arsen Ghazaryan <arsen.ghazaryan@gmail.com>
+homepage: https://github.com/arsen/flutter_notification_permission
 
 environment:
   sdk: ">=2.1.0 <3.0.0"
