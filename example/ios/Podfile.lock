@@ -1,0 +1,22 @@
+PODS:
+  - Flutter (1.0.0)
+  - notification_permission (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `.symlinks/flutter/ios`)
+  - notification_permission (from `.symlinks/plugins/notification_permission/ios`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: ".symlinks/flutter/ios"
+  notification_permission:
+    :path: ".symlinks/plugins/notification_permission/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 58dd7d1b27887414a370fcccb9e645c08ffd7a6a
+  notification_permission: 37358efb232ad993cae7272020a0e22a729f9cc9
+
+PODFILE CHECKSUM: 20fd9064696d3afcf3ae923d43c2f05571da4ff1
+
+COCOAPODS: 1.6.1
