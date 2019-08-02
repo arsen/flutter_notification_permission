@@ -6,6 +6,13 @@ This plugin will not ask for permission to the user, it will silently check if t
 
 The tricky part is that both on Android and iOS even if the user denied the push notification permission, the callback to register for push notifications will still be fired, but when you send one user will not see it.
 
+To install:
+```
+dependencies:
+  notification_permission: ^0.1.0
+```
+
+To use it:
 ```
 import 'package:notification_permission/notification_permission.dart';
 
