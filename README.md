@@ -1,14 +1,16 @@
-# notification_permission
+# flutter_notification_permission
 
-A new flutter plugin project.
+This plugin is a fork of [Vanethos/flutter_notification_permissions/](https://github.com/Vanethos/flutter_notification_permissions/) with iOS portion done in Objective C to avoid all the problems with swift in Flutter.
 
-## Getting Started
+```
+import 'package:notification_permission/notification_permission.dart';
 
-This project is a starting point for a Flutter
-[plug-in package](https://flutter.dev/developing-packages/),
-a specialized package that includes platform-specific implementation code for
-Android and/or iOS.
-
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.dev/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+var result = await NotificationPermission.getNotificationPermission();
+if (result == NotificationPermissionStatus.denied) {
+  _permission = 'denied';
+} else if (result == NotificationPermissionStatus.granted) {
+  _permission = 'granted';
+} else {
+  _permission = 'unknown';
+}
+```
